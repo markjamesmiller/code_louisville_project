@@ -1,1 +1,1 @@
-# code_louisville_project
+This project is a remake and simplification of the current website for the homeless shelter Wayside Christian Mission.  Hopefully it will get the most important information across to the viewer and not be cluttered up with confusing images and text.  Also, it will have a good mobile user experience.
