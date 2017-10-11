@@ -1,0 +1,136 @@
+.body {
+    background-color: lightgrey;
+}
+
+.header1 {
+    font-family: 'Crete Round', serif;
+    text-align: center;
+    text-decoration: none;
+    font-weight: normal;
+    background-color: #cc0000;
+    color: white;
+    /*border-radius: 15px 15px 0 0;*/
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    padding-top: 10px;
+    text-align: center;
+    float: left
+}
+
+.header2 {
+    font-size: 16px;
+    text-align: center;
+
+}
+
+.header1 {
+    margin: 0px;
+}
+
+.mainnav {
+    flex-flow: nowrap;
+    background-color: #cc0000;
+    padding: 10px;
+    margin: 0px;
+    color: white;
+    text-decoration: none;
+    font-size: 12px
+    
+}    
+    
+nav ul {
+    background-color: #cc0000;
+    margin-top: 0px;
+    border-radius: 0px 0px 15px 15px;
+}
+
+nav ul li a {
+    display: inline-block;
+    background-color: #cc0000;
+    padding: 10px;
+    margin: 0px;
+    color: white;
+    text-decoration: none;
+    font-size: 12px
+    
+}
+
+.mainnav :hover {
+    text-decoration: underline;
+    
+}
+
+/*.nav-item:hover {*/
+/*    background-color: blue;*/
+/*}*/
+
+h1 {
+    font-family: 'Crete Round', serif;
+    text-align: center;
+    /*border: 2px solid yellow;*/
+    }
+    
+.story-title {
+    margin-bottom: 2px
+    padding: 0px;
+    font-size: 14px;
+}    
+    
+.main-content h1 {
+    margin: 0px;
+}    
+    
+.story {
+    overflow: auto;
+}
+
+.story .story-image {
+    float: left;
+    margin: 10px;
+}
+
+.story .story-text {
+    font-size: 12px;
+    margin: 10px;
+}
+
+footer {
+    /*position: fixed;*/
+    /*bottom: 0px;*/
+    font-size: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+@media (max-width: 719px) {
+    .mainnav {
+    display: flex;
+    justify-content: center;
+}
+}
+
+@media (min-width: 720px) {
+    .mainnav {
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .story .story-text {
+        width: 50%;
+        margin-left: 25%;
+    }
+    
+    .story .story-image {
+        margin-left: 25%;
+    }
+}
+    
+    
+    
+    
+    
