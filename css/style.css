@@ -80,7 +80,13 @@ h1 {
     padding: 0px;
     font-size: 14px;
 }    
-    
+
+img {
+    width: 175px;
+    height: auto;
+    overflow: hidden;
+}
+
 .main-content h1 {
     margin: 0px;
 }    
@@ -107,12 +113,24 @@ footer {
     width: 100%;
 }
 
+.button {
+    Margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.volunteerform {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 @media (max-width: 719px) {
     .mainnav {
     display: flex;
     justify-content: center;
 }
 }
+
+/*Media Queries Below*/
 
 @media (min-width: 720px) {
     .mainnav {
@@ -128,9 +146,8 @@ footer {
     .story .story-image {
         margin-left: 25%;
     }
+    .volunteerform {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
 }
-    
-    
-    
-    
-    
