@@ -1,3 +1,5 @@
+// This only works in the console log for now without any backend
+
 console.log(document.forms);
 
 let button = document.getElementById('submitButton');
