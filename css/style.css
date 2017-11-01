@@ -1,5 +1,7 @@
 body {
     background-color: #ebebe0;
+    position: relative;
+    height: !important 100vh ;
 }
 
 .header1 {
@@ -105,9 +107,20 @@ img {
     margin: 10px;
 }
 
+.hidden {
+    display: none;
+    height: 0;
+} 
+
+.show {
+    display: block;
+    height: 100%;
+    margin-bottom: 30px;
+}
+
 footer {
-    /*position: fixed;*/
-    /*bottom: 0px;*/
+    position: absolute;
+    bottom: !important 0px;
     font-size: 10px;
     text-align: center;
     width: 100%;
@@ -145,12 +158,11 @@ input[type=text]:hover {
     border: 3px solid #555;
 }
 
-.donateimg {
-    border: 5px solid yellow;
-    width: 50%;
-    margin: 0 auto;
-    position: relative;
-    top: 30px;
+
+.donate {
+    display: flex;
+    justify-content: Center;
+    margin-top: 30px;
 }
 
 @media (max-width: 719px) {

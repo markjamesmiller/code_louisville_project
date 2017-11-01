@@ -15,7 +15,12 @@ function captureFormValue() {
   let email = document.forms[0][2].value;
   let phone = document.forms[0][3].value;
   let address = document.forms[0][4].value;
-
+  let rbutton = document.querySelectorAll("[type='radio']");
+    for (let i=0; i < rbutton.length; i++) {
+  if (rbutton[i].checked === true){
+    console.log (rbutton[i].value);
+  }
+}
   console.log('firstname is ' + firstname);
   console.log('lastname is ' + lastname);
   console.log('email is ' + email);
